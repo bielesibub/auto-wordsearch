@@ -13,3 +13,6 @@ I'm a father of 4 suffering with MS. With the scare of maybe having to spend mon
 This thing has only been done because I don't want my kids stuck on their XBOXs for however long it takes for the Coronavirus scare to go away. 
 
 Stay safe.
+
+## The wordsearches
+
