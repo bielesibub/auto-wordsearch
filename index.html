@@ -77,7 +77,9 @@
         const data = await response.json();
         let htmlString = '<ul>';
         for (let file of data) {
-          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+          if($(file.name).indexOf(".pdf") > -1){
+            htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+          }
         }
         htmlString += '</ul>';
         document.getElementById('wordsearches').innerHTML = htmlString;
