@@ -77,7 +77,7 @@
         const data = await response.json();
         let htmlString = '<ul>';
         for (let file of data) {
-          if($(file.name).indexOf(".pdf") > -1){
+          if(file.name.indexOf(".pdf") > -1){
             htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
           }
         }
