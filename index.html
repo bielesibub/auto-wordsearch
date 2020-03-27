@@ -80,6 +80,9 @@
         for (let file of data) {
           currentDate = file.name.substring(0,file.name.indexOf("_"))
           if (currentDate != previousDate) {
+            if (previousDate != ""){
+              html += '</ul>'
+            }
             htmlString += '<ul>' + currentDate
           } 
 
@@ -88,11 +91,6 @@
               htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
             }
 
-          if (currentDate != previousDate ) {
-           
-            htmlString += '</ul>'
-          
-          }
           previousDate = currentDate
         }
         htmlString += '</ul>';
