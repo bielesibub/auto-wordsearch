@@ -88,6 +88,7 @@
 
           if(file.name.indexOf(".pdf") > -1){ 
               filename = file.name.substring(file.name.indexOf("_")+1,file.name.length)
+              filename = filename.replace(/_/i,' ')
               htmlString += `<li><a href="${file.path}">${filename}</a></li>`;
             }
 
