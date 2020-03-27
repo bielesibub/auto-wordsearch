@@ -83,8 +83,8 @@
             htmlString += '<ul>' + currentDate
           } 
 
-          if(file.name.indexOf(".pdf") > -1){
-              filename = file.name.substring(file.name.indexOf("_"),length(file.name))
+          if(file.name.indexOf(".pdf") > -1){ 
+              filename = file.name.substring(file.name.indexOf("_"),file.name.length)
               htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
             }
 
