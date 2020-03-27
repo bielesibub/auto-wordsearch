@@ -82,7 +82,7 @@
         const response = await fetch('https://api.github.com/repos/bielesibub/auto-wordsearch/contents/searches/');
         const data = await response.json();
         data.sort(function(a, b) {
-          return parseFloat(a.name) - parseFloat(b.name);
+          return parseFloat(b.name) - parseFloat(a.name);
         });
         let htmlString = '<ul>';
         previousDate = ""
