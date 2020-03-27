@@ -20,7 +20,11 @@
 <script type="application/ld+json">
 {"headline":"auto-wordsearch","@type":"WebSite","url":"https://bielesibub.github.io/auto-wordsearch/","name":"auto-wordsearch","description":"Auto generated Wordsearch from story of the moment on the BBC Website","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
+<style>
+  ul {font-weight: bold;}
+  li {font-weight: normal}
 
+</style>
   </head>
 
   <body>
@@ -83,7 +87,7 @@
             if (previousDate != ""){
               htmlString += '</ul>'
             }
-            htmlString += '<ul>' + currentDate
+            htmlString += '<ul style="bold">' + currentDate
           } 
 
           if(file.name.indexOf(".pdf") > -1){ 
