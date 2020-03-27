@@ -81,12 +81,14 @@
       (async () => {
         const response = await fetch('https://api.github.com/repos/bielesibub/auto-wordsearch/contents/searches/');
         const data = await response.json();
+
         sortedData = data.sort(function(a, b) {
-          return parseFloat(b.name) - parseFloat(a.name);
+          return b.name.localeCompare(a.name);
         });
+
         let htmlString = '<ul>';
         previousDate = ""
-        for (let file of data) {
+        for (let file of sortedData) {
           currentDate = file.name.substring(0,file.name.indexOf("_"))
           if (currentDate != previousDate) {
             if (previousDate != ""){
