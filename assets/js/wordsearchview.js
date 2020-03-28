@@ -210,7 +210,7 @@ function WordSearchView(matrix, list, gameId, listId, instructionsId) {
 	 	 * search grid
 	 	 */
 		$(select.cells).bind('mousedown vmousedown', function() {
-			
+			alert( "mouse down")
 			//sets true that mouse is down
 			mouseIsDown = true;
 
@@ -229,7 +229,7 @@ function WordSearchView(matrix, list, gameId, listId, instructionsId) {
 		 * mouse inside the puzzle container!
 		 */
 		$(select.cells).bind( 'mouseenter vmousemove', function() {  
-			alert( "mouse move")
+			
 			//ensures the mouse is down and the cell the mouse is on is on a valid path
 			if (mouseIsDown && $(this).hasClass(names.selectable)) {  
 
