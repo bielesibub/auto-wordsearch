@@ -1,7 +1,8 @@
 * {
 
 	text-align: center;
-	font-family:  "Moon", Arial, sans serif;
+	/*font-family:  "Moon", Arial, sans serif;*/
+	font-family: 'Indie Flower', cursive;
 	font-weight: normal;
 
 }
@@ -34,7 +35,8 @@ h1, h2 {
 
 body {
 
-	background-color: #EAF7FB;
+	/*background-color: #EAF7FB;*/
+	background-color: white
 
 }
 
@@ -50,6 +52,7 @@ body {
 	border: 2px black solid;
 	display: table;
 	min-width: 600px;
+	
 
 }
 
@@ -67,6 +70,7 @@ body {
 	height:30px;
 	width: 30px;
 	font-size: 17px;
+	font-weight: bolder;
 	padding: 0;
 	outline: 0;
 

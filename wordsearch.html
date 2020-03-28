@@ -3,18 +3,16 @@
 <html>
 	<head>	
 		<meta charset="utf-8">
-		<title>Word Search Game</title>
+		<title>Word Search <span id = "wordTheme"></span></title>
 	</head>
 	<body>
-		<h1>Word Search Game</h1>
-		<h2 id = "instructions"></h2>
-		<h3 id = "themeIntro">The theme is: <span id = "wordTheme"></span></h3>
-		
-		<button id = "newGameButton" type = "button">New Game</button>
+		<h1 id="wordTheme"></h1>
 		<div id = "wordboard"></div>
 		<div id = "wordlist"></div>
-		<button id = "solveButton" type = "button">Show the answers!</button>
-
+		<div style="text-align: center;">
+			<button style="display:inline-block;" id = "newGameButton" type = "button">New Game</button>&nbsp;<button style="display:inline-block;" id = "solveButton" type = "button">Show the answers!</button>
+		</div>
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 		<link rel = "stylesheet" type="text/css" href = "assets/css/wordsearch.css">
 
 		<script src = https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
