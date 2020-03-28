@@ -4,5 +4,12 @@
         "Premiership Football Teams": [["Arsenal", "Aston Villa", "Burnley", "Chelsea"],
                                        ["Liverpool", "Wolves", "Everton", "Crystal Palace"],
                                        ["Norwich City","Newcastle United","Southampton","Brighton"],
-                                       ["Bournemouth","West Ham United","Tottenham Hotspur","Leicester City"]]
+                                       ["Bournemouth","West Ham United","Tottenham Hotspur","Leicester City"]],
+        "Virus testing rolled out for frontline NHS staff": [["every three to four", "EPA Frontline", "NHS Health England", "the past hour"],
+                                       ["Boris Johnson", "Michael Gove", "this weekend", "the million"],
+                                       ["coronavirus", "next week", "Scotland", "hundred"],
+                                       ["Cabinet", "Hancock", "England", "London"],
+                                       ["Friday", "Wales", "Italy", "about"]
+                                       ["Matt", "BMA", "BBC", "two"],
+                                       ["NHS", "to", "UK"]
     }
