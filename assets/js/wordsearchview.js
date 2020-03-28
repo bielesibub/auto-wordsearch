@@ -229,7 +229,7 @@ function WordSearchView(matrix, list, gameId, listId, instructionsId) {
 		 * mouse inside the puzzle container!
 		 */
 		$(select.cells).bind( 'mouseenter taphold', function() {  
-			
+			alert("tap hold")
 			//ensures the mouse is down and the cell the mouse is on is on a valid path
 			if (mouseIsDown && $(this).hasClass(names.selectable)) {  
 
