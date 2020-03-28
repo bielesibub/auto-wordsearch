@@ -11,5 +11,9 @@
         "Pokemon":[["Pikachu","Bulbasaur","Squirtle","Charmander"],
                     ["Charizard","MewTwo","Ivysaur","Charmeleon"],
                     ["Wartortle","Spearow","Nidoran","Parasect"],
-                    ["Gyarados","Dragonnite","Dratini","Porygon"]]
+                    ["Gyarados","Dragonite","Dratini","Porygon"]],
+        "My Little Pony":[["Apple Jack","Pinky Pie","Twilight Sparkle","Spike"],
+                    ["Rainbow Dash","Rarity","Fluttershy","Discord"],
+                    ["Equestria","Princess Celestia","Princess Luna","Apple Bloom"],
+                    ["Scootaloo","Sweetie Belle","Gilda","Manehattan"]]
     }
