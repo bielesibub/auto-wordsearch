@@ -209,7 +209,7 @@ function WordSearchView(matrix, list, gameId, listId, instructionsId) {
 	 	/** executes when the mouse is pressed down on a letter in the 
 	 	 * search grid
 	 	 */
-		$(select.cells).mousedown(function() {
+		$(select.cells).bind('mousedown', function() {
 			
 			//sets true that mouse is down
 			mouseIsDown = true;
@@ -228,7 +228,7 @@ function WordSearchView(matrix, list, gameId, listId, instructionsId) {
 		/** this code executes when the mouse is down and the user starts moving their
 		 * mouse inside the puzzle container!
 		 */
-		$(select.cells).mouseenter(function() {  
+		$(select.cells).bind( 'mouseenter', function() {  
 			
 			//ensures the mouse is down and the cell the mouse is on is on a valid path
 			if (mouseIsDown && $(this).hasClass(names.selectable)) {  
@@ -263,7 +263,7 @@ function WordSearchView(matrix, list, gameId, listId, instructionsId) {
 		 * the word made and whether it's a word to be found, as well as resetting variables 
 		 * to allow another move 
 		 */
-		$(select.cells).mouseup(function() {
+		$(select.cells).bind( 'mouseup', function() {
 
 			endMove();
 
