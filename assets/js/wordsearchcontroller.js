@@ -16,8 +16,8 @@
 function WordSearchController(gameId, listId, solveId, newGameId, instructionsId, themeId) {
 	//grab most recent grid from github
 
-	response = fetch('https://api.github.com/repos/bielesibub/auto-wordsearch/contents/searches/');
-    data = response.json();
+	var response = $.getJSON('https://raw.githubusercontent.com/bielesibub/auto-wordsearch/master/grids.json');
+    //var data = response.json();
 	console.log(response)
 
 	//an object containing various themes/words for the game
