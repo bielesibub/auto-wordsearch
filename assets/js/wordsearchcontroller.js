@@ -15,7 +15,6 @@
 
 function WordSearchController(gameId, listId, solveId, newGameId, instructionsId, themeId) {
 	//grab most recent grid from github
-	console.log("pppp")
 	var searchTypes = {}
 
 	//variables to store game logic and it's view
